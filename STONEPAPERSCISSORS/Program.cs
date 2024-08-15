@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,7 +21,7 @@ namespace STONEPAPERSCISSORS
                 int scorePlayer = 0;
                 int scoreCPU = 0;
 
-                while (scorePlayer < 3 && scoreCPU < 3)
+                while (scorePlayer < 10 && scoreCPU < 10)
                 {
                     
 
@@ -98,11 +98,11 @@ namespace STONEPAPERSCISSORS
 
                 }
 
-                if (scorePlayer == 3)
+                if (scorePlayer == 10)
                 {
                     Console.WriteLine("Player WON!");
                 }
-                else if (scoreCPU == 3)
+                else if (scoreCPU == 10)
                 {
                     Console.WriteLine("CPU WON!");
                 }
